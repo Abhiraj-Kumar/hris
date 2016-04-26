@@ -39,7 +39,10 @@ class EmployeeListFetcher: NSObject {
                     let detail = EmployeeDetail()
                     detail.info = $0 as? String ?? "Error"
                     return detail
-                    }
+                        }.filter{
+                            $0.info != "" &&
+                                $0.info != "-"
+                }
                 completionBlock?(employeeList: employeeDetail,error: nil)
                 }
                 

@@ -18,6 +18,7 @@
 		6BDD429A1CCF497900629B62 /* EmployeeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDD42991CCF497900629B62 /* EmployeeDetail.swift */; };
 		6BDD429C1CCF499300629B62 /* BasicEmployeeInfoMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDD429B1CCF499300629B62 /* BasicEmployeeInfoMapper.swift */; };
 		6BDD429E1CCF5B7900629B62 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDD429D1CCF5B7900629B62 /* LoginRequest.swift */; };
+		6BDD42A01CCF6E9D00629B62 /* EmployeeDataAccessObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDD429F1CCF6E9D00629B62 /* EmployeeDataAccessObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		6BDD42991CCF497900629B62 /* EmployeeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeDetail.swift; sourceTree = "<group>"; };
 		6BDD429B1CCF499300629B62 /* BasicEmployeeInfoMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicEmployeeInfoMapper.swift; sourceTree = "<group>"; };
 		6BDD429D1CCF5B7900629B62 /* LoginRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		6BDD429F1CCF6E9D00629B62 /* EmployeeDataAccessObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeDataAccessObject.swift; sourceTree = "<group>"; };
 		FB754B700188DE46EE84C26E /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -79,6 +81,7 @@
 				6BDD429B1CCF499300629B62 /* BasicEmployeeInfoMapper.swift */,
 				6BDD42871CCF47D900629B62 /* DetailViewController.swift */,
 				6BDD42891CCF47D900629B62 /* Main.storyboard */,
+				6BDD429F1CCF6E9D00629B62 /* EmployeeDataAccessObject.swift */,
 				6BDD428C1CCF47D900629B62 /* Assets.xcassets */,
 				6BDD428E1CCF47D900629B62 /* LaunchScreen.storyboard */,
 				6BDD42911CCF47D900629B62 /* Info.plist */,
@@ -230,6 +233,7 @@
 				6BDD429C1CCF499300629B62 /* BasicEmployeeInfoMapper.swift in Sources */,
 				6BDD42981CCF496000629B62 /* EmployeeListFetcher.swift in Sources */,
 				6BDD429A1CCF497900629B62 /* EmployeeDetail.swift in Sources */,
+				6BDD42A01CCF6E9D00629B62 /* EmployeeDataAccessObject.swift in Sources */,
 				6BDD42861CCF47D900629B62 /* MasterViewController.swift in Sources */,
 				6BDD429E1CCF5B7900629B62 /* LoginRequest.swift in Sources */,
 				6BDD42841CCF47D900629B62 /* AppDelegate.swift in Sources */,

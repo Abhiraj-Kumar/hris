@@ -17,6 +17,10 @@ class EmployeeDetail: NSObject {
                 self.employeeId = info.substringWithRange(range)
             }
             
+             info = info.stringByTrimmingCharactersInSet(
+                NSCharacterSet.whitespaceAndNewlineCharacterSet()
+            )
+            
         }
     }
     var employeeId:String?
